@@ -277,7 +277,6 @@ Outputs:
   DynamoDBTableName:
     Description: "Name of the DynamoDB Table"
     Value: !Ref RoomsTable
-
   ApplicationURL:
     Description: "CloudFront Distribution URL"
     Value: !Sub "https://${CloudFrontDistribution.DomainName}"
